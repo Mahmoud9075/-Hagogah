@@ -5,7 +5,8 @@ import App from "./App.jsx";
 import StoreContextProvider from "./context/StoreContext.jsx";
 
 createRoot(document.getElementById("root")).render(
-  <BrowserRouter basename="/Hagogah">
+<BrowserRouter>
+
     <StoreContextProvider>
       <App />
     </StoreContextProvider>
