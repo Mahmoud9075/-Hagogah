@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+body {
+  min-height: 100vh;
+  font-family: "Marhey", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#menu-list::-webkit-scrollbar {
+  display: none;
+  background-position: right;
+}
